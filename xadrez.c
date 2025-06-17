@@ -29,7 +29,7 @@ void moverRainha(int casas){
 //Função cavalo
 void moverCavalo(int casas){
     if (casas > 0){
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 5; i++) {
         if (i == 1 || i == 2) {
             printf("Cavalo cima\n"); //Movimento orizontal ou vertical do Cavalo 2x 
             continue;} 
